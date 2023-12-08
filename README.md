@@ -21,7 +21,7 @@ docker run --detach -i -t --restart unless-stopped \
 sendemail -f jim@bbc.com -t jim@bbc.com -u subject -m "RelayedViaOffice365" -s localhost:25 -o tls=no
 
 # Stop (and remove otherwise the name is help on to)
-docker stop smtp-relay && docker rm smtp-relay
+docker stop o365-smtp-relay && docker rm o365-smtp-relay
 ```
 
 
