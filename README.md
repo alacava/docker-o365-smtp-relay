@@ -3,6 +3,7 @@
 git clone https://github.com/alacava/docker-o365-smtp-relay.git
 cd docker-o365-smtp-relay/
 
+
 # Build docker container
 docker build -t docker-o365-smtp-relay .
 
