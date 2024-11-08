@@ -1,5 +1,5 @@
-FROM ubuntu:18.04
-MAINTAINER Lyle Scott, III "lyle@digitalfoo.net"
+FROM ubuntu:latest
+MAINTAINER Anthony La Cava "me@anthonylacava.com"
 
 ENV DEBIAN_FRONTEND noninteractive
 
