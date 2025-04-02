@@ -1,6 +1,12 @@
 name: Publish Docker image
 
-on: push
+on: 
+  push:
+    branches:
+     - main
+    paths:
+      - '**'
+      - '!.github/workflows/**'
 
 jobs:
   push_to_registry:
