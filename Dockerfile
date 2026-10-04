@@ -1,4 +1,4 @@
-FROM ubuntu@sha256:c35e29c9450151419d9448b0fd75374fec4fff364a27f176fb458d472dfc9e54
+FROM ubuntu@sha256:f144425ff09be612d6d9ad965196e9cdc23dae1f42110a8a11a3e9a8198759f7
 MAINTAINER Anthony La Cava "me@anthonylacava.com"
 
 ENV DEBIAN_FRONTEND noninteractive
